@@ -7,7 +7,7 @@ NullDC is an open source Sega Dreamcast and NAOMI emulator for Windows,
 developed by drk||Raziel (currently under the nickname skmp) and ZeZu.
 It was released under the MIT license.
 
-![nullDC running](files/figures/NullDC.png)
+![nullDC running](figures/NullDC.png)
 
 The emulator was first announced on February 19, 2006, with version
 1.0.4 r22 being released May 9, 2010, coinciding with drk||raziel’s
