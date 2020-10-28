@@ -40,10 +40,8 @@ It has a plugin architecture, with several alternative implementations (some por
 ![](figures/1.PNG)
 4. Navigate to the data folder.
 
-5. If it looks like this:
+5. If it looks like this, you will need the BIOS files:
 ![](figures/2.PNG) 
-
-You will need the BIOS files.
     + Place all BIOS files inside.
 ![](figures/3.PNG)
 
