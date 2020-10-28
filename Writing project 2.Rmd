@@ -1,7 +1,7 @@
 ---
 title: "NullDC Emulator"
 output: 
-    html_document:
+    github_document:
     theme: lumen
     toc: yes
     toc_float: yes
@@ -26,7 +26,7 @@ NullDC requires a machine running Windows 7 or higher, DirectX 9.0c, Visual C++ 
 
 It has a plugin architecture, with several alternative implementations (some ported from Chankast) for graphics, sound, reading games burned to CD-ROMs (it cannot read GD-ROMs directly) or disk image files, memory cards, etc. Please see those implementation's documentation for uses, as this will be covering the standard version.
 
-***
+
 ## Installation and Setup
 ***
 
@@ -60,7 +60,7 @@ You will need the BIOS files.
     + Click **OK**. The game should begin, with the VMU (Virtual Memory Unit, a screen on the original physical controller) emulation in a separate window, alongside the separate console window.
     ![](figures/6.PNG)
     
-***
+
 ## FAQ
 ***
 
@@ -76,7 +76,7 @@ Unfortunately with the nature of emulators, there are some games that simply don
 ### Does this work on Windows 10?
 Yes. This version is still confirmed to work as of 10/27/2020. (DRAFT: I just took the screenshots, so it works for me thankfully)
 
-***
+
 ## Troubleshooting
 ***
 
@@ -110,7 +110,7 @@ Some versions are more volatile than others, with some of the later community re
 
 Try a fresh install of the final official release, 1.0.4.
 
-***
+
 ## Support
 ***
 
@@ -118,12 +118,12 @@ Unfortunately the project has been dropped, and is no longer officially maintain
 
 But there is still 295 official issues on their page and the last commit was eight years ago, so some people will just be out of luck.
 
-***
+
 ## Licensing
 ***
 The nullDC emulator was released under the MIT License. 
 
-***
+
 ## How to Contribute
 ***
 

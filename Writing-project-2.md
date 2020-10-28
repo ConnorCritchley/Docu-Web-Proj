@@ -1,7 +1,11 @@
 NullDC Emulator
 ================
 
+-----
+
 ## What is nullDC?
+
+-----
 
 NullDC is an open source Sega Dreamcast and NAOMI emulator for Windows,
 developed by drk||Raziel (currently under the nickname skmp) and ZeZu.
@@ -11,11 +15,7 @@ It was released under the MIT license.
 
 The emulator was first announced on February 19, 2006, with version
 1.0.4 r22 being released May 9, 2010, coinciding with drk||raziel’s
-discontinuation with the project. He also made the source code available
-for others to continue the project. This can be found
-[here](https://github.com/skmp/nulldc).
-
-## Requirements and Materials
+discontinuation with the project. \#\# Requirements and Materials
 
 NullDC requires a machine running Windows 7 or higher, DirectX 9.0c,
 Visual C++ runtime libraries and optionally WinPcap for modem emulation.
@@ -31,6 +31,8 @@ this will be covering the standard version.
 
 ## Installation and Setup
 
+-----
+
 1.  Download the emulator
     [here](https://www.emuparadise.me/emulators/files/user/NullDC%201.0.4-389.zip)
     (DRAFT: As I am making this, this link is apparently no longer
@@ -40,11 +42,13 @@ this will be covering the standard version.
     I’m not sure which one you would prefer I list.)
 
 2.  Download any needed BIOS files
-    [here](https://www.emuparadise.me/biosfiles/bios.html). The files
-    needed are dc\_boot.bin, and dc\_flash.bin, and should be in the
-    “Dreamcast boot (all regions)” folder at the webpage. (DRAFT: Wow,
-    this is ridiculous, the site deleted all the download links
-    apparently but kept the page. Should I link another?)
+    [here](https://www.emuparadise.me/biosfiles/bios.html).
+    
+      - The files needed are dc\_boot.bin, and dc\_flash.bin, and should
+        be in the “Dreamcast boot (all regions)” folder at the webpage.
+        (DRAFT: Wow, this is ridiculous, the site deleted all the
+        download links apparently but kept the page. Should I link
+        another?)
 
 3.  Unzip the nullDC folder and place it where you specify. It should
     looke like this: ![](figures/1.PNG)
@@ -62,9 +66,11 @@ this will be covering the standard version.
 
 7.  Download the games you wish to emulate. One such site to find them
     is [here](https://www.emuparadise.me/Sega_Dreamcast_ISOs/1). The
-    file types that should be downloaded are CDIs. It is recommended
-    that you make a separate folder to store these CDIs in the same
-    directory as the main nullDC folder.
+    file types that should be downloaded are CDIs.
+    
+      - It is recommended that you make a separate folder to store these
+        CDIs in the same directory as the main nullDC folder, but not
+        inside the nullDC folder itself.
 
 8.  Boot up a game.
     
@@ -75,5 +81,118 @@ this will be covering the standard version.
         emulate. ![](figures/5.PNG)
     
       - Click **OK**. The game should begin, with the VMU (Virtual
-        Memoty Unit) emulation in a separate window, alongside the
-        separate console window. ![](figures/6.PNG)
+        Memory Unit, a screen on the original physical controller)
+        emulation in a separate window, alongside the separate console
+        window. ![](figures/6.PNG)
+
+## FAQ
+
+-----
+
+### What gamepads are usable with the emulator?
+
+All versions of nullDC utilize the XInput gamepad framework built by
+Microsoft. For the most reliable results, use an Xbox brand controller.
+
+### Is there NetPlay or Online Multiplayer?
+
+There is no such feature implemented, and the additonal community
+versions past the final release 1.0.4 up to the current 1.0.6 do not
+have it either.
+
+### Does it run *every* game for dreamcast?
+
+Unfortunately with the nature of emulators, there are some games that
+simply don’t work, or suffer graphical or other significant glitches.
+
+### Does this work on Windows 10?
+
+Yes. This version is still confirmed to work as of 10/27/2020. (DRAFT: I
+just took the screenshots, so it works for me thankfully)
+
+## Troubleshooting
+
+-----
+
+### “\[File\] is missing”
+
+If a message saying that the emulator is missing a file, double check
+that DirectX 9 / C++ runtimes are installed and your windows is up to
+date.
+
+Common missing files:
+
+  - d3dx9\_42.dll - This is a DirectX file.
+  - MSVCP100.dll - This is a Windows file.
+  - Any file ending in Win32.dll (drkPvr\_Win32.dll) followed by a
+    “Plugin Error \[number\]” - This is a plugin file, it should come
+    with the version linked, try re-installing or finding another
+    version.
+
+### Controller is not working
+
+Make sure your controller is both supported with XInput, and is
+recognized by windows in the device pane.
+
+Ensure your config file has the **hookjoy** section: ![](figures/7.PNG)
+
+Otherwise, you may need to get a separate install of a mapping program
+such as Joy2Key.
+
+### Can’t run \[game\]
+
+Some games simply can’t be run by the emullator, or will have a
+guaranteed crash within it. Search forums or other places to find if
+your game is one of them, otherwise check these possiblities:
+
+  - Ensure your CDI files are *unzipped*.
+  - Check that the files were completely downloaded / not corrupted.
+  - Some games have more than one disk, in this case have a folder with
+    *all* of the game’s CDIs, and choose the folder as the boot file.
+  - It might be neccessary to find versions of the CDI that are within a
+    certain region (USA, Europe should be in parenthesis next to the
+    title).
+
+### Immediate crashes / failure to start
+
+Some versions are more volatile than others, with some of the later
+community releases being guilty of this. Depending on plugins as well,
+some conflicts may occur that lead to crashing.
+
+Try a fresh install of the final official release, 1.0.4.
+
+## Support
+
+-----
+
+Unfortunately the project has been dropped, and is no longer officially
+maintained. Thankfully, it has been ten years since the end, so there is
+a good chance your issue has been encountered before and has been
+solved.
+
+But there is still 295 official issues on their page and the last commit
+was eight years ago, so some people will just be out of luck.
+
+## Licensing
+
+-----
+
+The nullDC emulator was released under the MIT License.
+
+## How to Contribute
+
+-----
+
+With the project having been discontinued, there are no further official
+updates or means to contribute to one.
+
+However, as the project ended, its creators posted the source code for
+others to continue the project on their own. This can be found
+[here](https://github.com/skmp/nulldc) at their GitHub page.
+
+(DRAFT NOTES: I’m working on impletementing a GitHub style, but it
+doesnt like my .md files for some reason, so I’ve been using .html.
+Needless to say, visuals are subject to change for final draft. I also
+have **no idea** why the table of contents isn’t showing up, I have it
+enabled and set to float, hopefully I can fix that for the final as
+well.)
