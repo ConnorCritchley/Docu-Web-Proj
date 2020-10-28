@@ -42,6 +42,7 @@ It has a plugin architecture, with several alternative implementations (some por
 
 5. If it looks like this:
 ![](figures/2.PNG) 
+
 You will need the BIOS files.
     + Place all BIOS files inside.
 ![](figures/3.PNG)
