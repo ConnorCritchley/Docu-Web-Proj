@@ -141,15 +141,15 @@ such as Joy2Key.
 
 ### Can’t run \[game\]
 
-Some games simply can’t be run by the emullator, or will have a
+Some games simply can’t be run by the emulator, or will have a
 guaranteed crash within it. Search forums or other places to find if
-your game is one of them, otherwise check these possiblities:
+your game is one of them, otherwise check these possibilities:
 
   - Ensure your CDI files are *unzipped*.
   - Check that the files were completely downloaded / not corrupted.
   - Some games have more than one disk, in this case have a folder with
     *all* of the game’s CDIs, and choose the folder as the boot file.
-  - It might be neccessary to find versions of the CDI that are within a
+  - It might be necessary to find versions of the CDI that are within a
     certain region (USA, Europe should be in parenthesis next to the
     title).
 
@@ -190,9 +190,8 @@ However, as the project ended, its creators posted the source code for
 others to continue the project on their own. This can be found
 [here](https://github.com/skmp/nulldc) at their GitHub page.
 
-(DRAFT NOTES: I’m working on impletementing a GitHub style, but it
-doesnt like my .md files for some reason, so I’ve been using .html.
-Needless to say, visuals are subject to change for final draft. I also
-have **no idea** why the table of contents isn’t showing up, I have it
-enabled and set to float, hopefully I can fix that for the final as
-well.)
+(DRAFT NOTES: I’m working on implementing a GitHub style, but it doesn’t
+like my .md files for some reason, so I’ve been using .html. Needless to
+say, visuals are subject to change for final draft. I also have **no
+idea** why the table of contents isn’t showing up, I have it enabled and
+set to float, hopefully I can fix that for the final as well.)
