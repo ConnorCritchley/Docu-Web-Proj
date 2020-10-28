@@ -20,6 +20,7 @@ NullDC is an open source Sega Dreamcast and NAOMI emulator for Windows, develope
 ![nullDC running](figures/nullDC (1).PNG)
 
 The emulator was first announced on February 19, 2006, with version 1.0.4 r22 being released May 9, 2010, coinciding with drk||raziel's discontinuation with the project.
+
 ## Requirements and Materials
 
 NullDC requires a machine running Windows 7 or higher, DirectX 9.0c, Visual C++ runtime libraries and optionally WinPcap for modem emulation. BIOS files are also needed, and your system may need the files depending on download source. A controller that is compatible with Windows XInput system is required.
