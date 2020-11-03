@@ -7,5 +7,6 @@ navbar:
       href: Null.html
 output: 
   bookdown::html_document2:
-    theme: united
-    highlight: default
+    theme: yeti
+    highlight: textmate
+    css: alans.css  
