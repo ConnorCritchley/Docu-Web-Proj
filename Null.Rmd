@@ -44,7 +44,7 @@ It has a plugin architecture, with several alternative implementations (some por
     + If it looks like this, you will need to place the BIOS files inside:
 ![](figures/2.PNG) 
 
-    + Place all BIOS files inside, and ensure the data folder appeara as so:
+    + Place all BIOS files inside, and ensure the data folder appears as so:
 ![](figures/3.PNG)  
 
 
