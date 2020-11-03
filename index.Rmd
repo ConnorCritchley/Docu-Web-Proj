@@ -64,7 +64,8 @@ It has a plugin architecture, with several alternative implementations (some por
     + In the new window, navigate to the CDI of the game you wish to emulate.
 ![](figures/5.PNG)  
 <br>
-    + Click OK. The game should begin, with the VMU (Virtual Memory Unit, a screen on the original physical controller) emulation in a separate window, alongside the separate console window.
+    + Click OK. 
+    + The game should begin, with the VMU (Virtual Memory Unit, a screen on the original physical controller) emulation in a separate window, alongside the separate console window.
 ![](figures/6.PNG)  
 <br>
     
