@@ -1,0 +1,11 @@
+name: "nullDC Documentation"
+output_dir: "docs"
+navbar:
+  title: "Connor Critchley"
+  left:
+    - text: "NullDC Documentation"
+      href: Null.html
+output: 
+  bookdown::html_document2:
+    theme: united
+    highlight: default

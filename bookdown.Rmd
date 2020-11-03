@@ -1,0 +1,48 @@
+---
+title: "Odds and Ends"
+output: bookdown::html_document2
+---
+
+# Examples
+## Text
+
+* A bullet
+
+> Some famous quote
+
+## URL
+My favorite web [page](http://www.usms.org/).  
+
+# `bookdown`
+
+Using `bookdown` allows us to label and refer to Equations, Tables, and Figures.  See [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/) for more details. 
+
+## Figures
+
+```{r, label = "junk", fig.align='center',fig.cap="Your caption goes here", echo = TRUE}
+set.seed(123)
+hist(rnorm(1000), main = "", breaks = "Scott", col = "pink")
+```
+
+Figure \@ref(fig:junk) is unimodal. Equation \@ref(eq:ONE) computes the mean.
+
+## Equations
+
+\begin{equation}
+\bar{x} = \sum_{i=1}^{n}\frac{x_i}{n}
+(\#eq:ONE)
+\end{equation}
+
+\begin{equation}
+X \overset{\bullet}{\sim}\mathcal{N}(\mu, \sigma)
+(\#eq:TWO)
+\end{equation}
+
+## Tables
+
+```{r, echo = FALSE}
+knitr::kable(
+  head(mtcars[, 1:8], 10),
+  caption = 'A table of the first 10 rows of the mtcars data.'
+)
+```

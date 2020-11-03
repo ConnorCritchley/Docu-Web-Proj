@@ -1,0 +1,11 @@
+---
+title: "Your Website"
+---
+
+Hello, Website!
+
+* First bullet
+* Second bullet
+* third bullet
+
+[Documentation](http://rmarkdown.rstudio.com/rmarkdown_websites.html)
