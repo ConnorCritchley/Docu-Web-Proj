@@ -1,11 +1,5 @@
 ---
-title: "Your Website"
+title: "NullDC Documentation"
 ---
 
-Hello, Website!
-
-* First bullet
-* Second bullet
-* third bullet
-
-[Documentation](http://rmarkdown.rstudio.com/rmarkdown_websites.html)
+test
