@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 ***
-## What is nullDC?
+# What is nullDC?
 ***
 
 NullDC is an open source Sega Dreamcast and NAOMI emulator for Windows, developed by drk||Raziel (currently under the nickname skmp) and ZeZu. It was released under the MIT license.
@@ -21,14 +21,14 @@ NullDC is an open source Sega Dreamcast and NAOMI emulator for Windows, develope
 
 The emulator was first announced on February 19, 2006, with version 1.0.4 r22 being released May 9, 2010, coinciding with drk||raziel's discontinuation with the project.
 
-## Requirements and Materials
+# Requirements and Materials
 
 NullDC requires a machine running Windows 7 or higher, DirectX 9.0c, Visual C++ runtime libraries and optionally WinPcap for modem emulation. BIOS files are also needed, and your system may need the files depending on download source. A controller that is compatible with Windows XInput system is required.
 
 It has a plugin architecture, with several alternative implementations (some ported from Chankast) for graphics, sound, reading games burned to CD-ROMs (it cannot read GD-ROMs directly) or disk image files, memory cards, etc. Please see those implementation's documentation for uses, as this will be covering the standard version.
 
 
-## Installation and Setup
+# Installation and Setup
 ***
 
 1. Download the emulator [here](https://www.emuparadise.me/emulators/files/user/NullDC%201.0.4-389.zip) (DRAFT: As I am making this, this link is apparently no longer secure, so [here](https://dw.uptodown.com/dwn/rls3qOrZrjMknH22X5RTJGiUkLLmFWY0TX4_DiLMAz9_u_zA4D1Ufto3eUjy1G6kD-_ILuWT060LnJNd-GCP7zFmMF6CO9HJFIAa3Gd2J-mQ4G4gCS9x1lJ3s7unfSE6/XTBViCwnFGxSz1ZibyBZ_coJcVicWau8iYvsOCJiBCEqWta4i6dbLhSc-T1BxKSm2Hk7_fa5J3ROkOy3jz5Rj4tTUaYTg7sqjYdoE0YixodA8SzpBxui4YQztII9Z1Us/kk7gjLQ-SmPeOQf3upevTgmlXVEx--NSDRjJ6PjriDYsCs5aDrGmGbSv194M5zy_ft7zN70Zgcgujxt_Q1RRPg==/) is another possible link, but without the pre-installed BIOS files. I'm not sure which one you would prefer I list.)
@@ -61,7 +61,7 @@ It has a plugin architecture, with several alternative implementations (some por
     ![](figures/6.PNG)
     
 
-## FAQ
+# FAQ
 ***
 
 ### What gamepads are usable with the emulator?
@@ -77,7 +77,7 @@ Unfortunately with the nature of emulators, there are some games that simply don
 Yes. This version is still confirmed to work as of 10/27/2020. (DRAFT: I just took the screenshots, so it works for me thankfully)
 
 
-## Troubleshooting
+# Troubleshooting
 ***
 
 ### "[File] is missing"
@@ -93,6 +93,7 @@ Common missing files:
 Make sure your controller is both supported with XInput, and is recognized by windows in the device pane. 
 
 Ensure your config file has the **hookjoy** section:
+
 ![](figures/7.PNG)
 
 Otherwise, you may need to get a separate install of a mapping program such as Joy2Key.
@@ -111,7 +112,7 @@ Some versions are more volatile than others, with some of the later community re
 Try a fresh install of the final official release, 1.0.4.
 
 
-## Support
+# Support
 ***
 
 Unfortunately the project has been dropped, and is no longer officially maintained. Thankfully, it has been ten years since the end, so there is a good chance your issue has been encountered before and has been solved.
@@ -119,16 +120,14 @@ Unfortunately the project has been dropped, and is no longer officially maintain
 But there is still 295 official issues on their page and the last commit was eight years ago, so some people will just be out of luck.
 
 
-## Licensing
+# Licensing
 ***
 The nullDC emulator was released under the MIT License. 
 
 
-## How to Contribute
+# How to Contribute
 ***
 
 With the project having been discontinued, there are no further official updates or means to contribute to one.
 
 However, as the project ended, its creators posted the source code for others to continue the project on their own. This can be found [here ](https://github.com/skmp/nulldc) at their GitHub page. 
-
-(DRAFT NOTES: I'm working on implementing a GitHub style, but it doesn't like my .md files for some reason, so I've been using .html. Needless to say, visuals are subject to change for final draft. I also have **no idea** why the table of contents isn't showing up, I have it enabled and set to float, hopefully I can fix that for the final as well.)
