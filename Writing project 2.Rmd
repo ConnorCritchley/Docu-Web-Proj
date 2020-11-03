@@ -2,7 +2,8 @@
 title: "NullDC Emulator"
 output: 
     html_document:
-    theme: lumen
+    theme: yeti
+    highlight: textmate
     toc: yes
     toc_float: yes
     css: MyStyle.css
@@ -31,33 +32,38 @@ It has a plugin architecture, with several alternative implementations (some por
 # Installation and Setup
 ***
 
-1. Download the emulator [here](https://www.emuparadise.me/emulators/files/user/NullDC%201.0.4-389.zip) 
+### 1. Download the emulator [here](https://www.emuparadise.me/emulators/files/user/NullDC%201.0.4-389.zip) 
 
-2. Download any needed BIOS files [here](https://www.emuparadise.me/biosfiles/bios.html). 
-    + The files needed are dc_boot.bin, and dc_flash.bin, and should be in the "Dreamcast boot (all regions)" folder at the webpage. 
+### 2. Download any needed BIOS files [here](https://www.emuparadise.me/biosfiles/bios.html).
 
-3. Unzip the nullDC folder and place it where you specify. It should looke like this:
+    The files needed are dc_boot.bin, and dc_flash.bin, and should be in the "Dreamcast boot (all regions)" folder at the webpage. 
+
+### 3. Unzip the nullDC folder and place it where you specify. It should looke like this:
 ![](figures/1.PNG)
-4. Navigate to the **data** folder.
-    + If it looks like this, you will need to place the BIOS files inside:
+
+### 4. Navigate to the *data* folder.
+
+    If it looks like this, you will need to place the BIOS files inside:
 ![](figures/2.PNG) 
-    + Place all BIOS files inside, and ensure the **data** folder should appear as so:
+
+    Place all BIOS files inside, and ensure the data folder appeara as so:
 ![](figures/3.PNG)
 
-5. Run **nullDC_Win32_Release-NoTrace.exe** to start the emulator. It should appear like the introductory image, with a console window as well.
+### 5. Run **nullDC_Win32_Release-NoTrace.exe** to start the emulator. It should appear like the introductory image, with a console window as well.
 
-6. Download the games you wish to emulate. One such site to find them is [here](https://www.emuparadise.me/Sega_Dreamcast_ISOs/1). The file types that should be downloaded are CDIs. 
-    + It is recommended that you make a separate folder to store these CDIs in the same directory as the main nullDC folder, but not inside the nullDC folder itself.
+### 6. Download the games you wish to emulate. One such site to find them is [here](https://www.emuparadise.me/Sega_Dreamcast_ISOs/1). 
+    
+    The file types that should be downloaded are CDIs. It is recommended that you make a separate folder to store these CDIs in the same directory as the main nullDC folder, but not inside the nullDC folder itself.
 
-7. Boot up a game. 
-    + Go to the **File** tab at the top bar of the program, and Select **Normal Boot**.
-    ![](figures/4.PNG)
+### 7. Boot up a game. 
+    Go to the File tab at the top bar of the program, and select Normal Boot.
+![](figures/4.PNG)
     
-    + In the new window, navigate to the CDI of the game you wish to emulate.
-    ![](figures/5.PNG)
+    In the new window, navigate to the CDI of the game you wish to emulate.
+![](figures/5.PNG)
     
-    + Click **OK**. The game should begin, with the VMU (Virtual Memory Unit, a screen on the original physical controller) emulation in a separate window, alongside the separate console window.
-    ![](figures/6.PNG)
+    Click OK. The game should begin, with the VMU (Virtual Memory Unit, a screen on the original physical controller) emulation in a separate window, alongside the separate console window.
+![](figures/6.PNG)
     
 
 # FAQ
@@ -73,7 +79,7 @@ There is no such feature implemented, and the additonal community versions past 
 Unfortunately with the nature of emulators, there are some games that simply don't work, or suffer graphical or other significant glitches.
 
 ### Does this work on Windows 10?
-Yes. This version is still confirmed to work as of 10/27/2020. (DRAFT: I just took the screenshots, so it works for me thankfully)
+Yes. This version is still confirmed to work as of 10/27/2020.
 
 
 # Troubleshooting
@@ -103,7 +109,7 @@ Some games simply can't be run by the emulator, or will have a guaranteed crash 
 * Ensure your CDI files are *unzipped*.
 * Check that the files were completely downloaded / not corrupted.
 * Some games have more than one disk, in this case have a folder with *all* of the game's CDIs, and choose the folder as the boot file.
-* It might be necessary to find versions of the CDI that are within a certain region (USA, Europe should be in parenthesis next to the title).
+* It might be necessary to find versions of the CDI that are within a certain region (USA, Europe, should be in parenthesis next to the title).
 
 ### Immediate crashes / failure to start
 Some versions are more volatile than others, with some of the later community releases being guilty of this. Depending on plugins as well, some conflicts may occur that lead to crashing.
