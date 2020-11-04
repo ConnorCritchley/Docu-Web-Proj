@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "NullDC Documentation"
       href: Null.html
+    - text: "Download README"
+      href: README.txt
 output: 
   bookdown::html_document2:
     theme: yeti
