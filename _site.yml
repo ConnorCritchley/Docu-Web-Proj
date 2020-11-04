@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "NullDC Documentation"
       href: Null.html
-    - text: "Download README"
+    - text: "README file"
       href: README.txt
 output: 
   bookdown::html_document2:
